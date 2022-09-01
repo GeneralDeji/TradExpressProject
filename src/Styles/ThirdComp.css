@@ -1,0 +1,128 @@
+.instant{
+    background-color: #FBF8FD;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.instant h1{
+    font-size: 23px;
+}
+
+.instant .choose a{
+    color: black;
+    text-decoration: none;
+}
+
+.instant .choose{
+    /* font-size: 12px; */
+    width: 55%;
+    margin: 15px auto;
+    /* padding: 5px 25px;    */
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #E4E4E4;
+}
+
+.ins{
+    width: 50%;
+}
+
+.insactive{
+    background-color: white;
+    color: black;
+    height: 26px;
+    border-radius: 5px;
+}
+
+.instant .selects-container .selects{
+    text-align: left;
+    display: grid;
+    margin: 35px 0;
+}
+
+.instant .selects-container{
+    width: 80%;
+    margin: auto;
+}
+
+.instant .selects-container .selects label{
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.instant .selects-container .selects select{
+    height: 35px;
+    padding: 0 7px;
+}
+
+.instant .selects-container .selects input{
+    height: 35px;
+    padding: 0 7px;
+}
+
+.instant button{
+    width: 250px;
+    height: 30px;
+    background-color: #7C20BF;
+    color: white;
+    border: 1px solid #7C20BF;
+    border-radius: 5px;
+}
+
+/* MEDIA QUERY */
+@media (min-width: 430px){
+    .instant{
+        border: 1px solid black;
+        width: 90%;
+        margin: 20px auto;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 578px){
+    .instant{
+        border: 1px solid black;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+}
+
+@media (min-width: 991px){
+    .instant {
+        width: 50%;
+    }
+
+    .instant button {
+        width: 350px;
+        height: 40px;
+    }
+
+    .instant h1 {
+        font-size: 30px;
+    }
+
+    .instant .choose a {
+        font-size: 14px;
+    }
+
+    .instant .selects-container .selects label {
+        font-size: 18px;
+    }
+
+    .instant .selects-container .selects select {
+        font-size: 14px;
+    }
+
+    .instant .selects-container .selects input {
+        font-size: 14px; 
+    }
+}
+
+@media (min-width: 1200px){
+    .instant{
+        width: 40%;
+    }
+}

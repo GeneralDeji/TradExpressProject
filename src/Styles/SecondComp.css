@@ -1,0 +1,213 @@
+.getstarted{
+    background-color: #FBF8FD;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.getstarted h1{
+    font-size: 25px;
+}
+
+.getstarted .choose a{
+    color: black;
+    text-decoration: none;
+}
+
+.getstarted .choose{
+    font-size: 12px;
+    width: 55%;
+    margin: 15px auto;
+    /* padding: 5px;    */
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #E4E4E4;
+
+}
+
+.but{
+    width: 50%;
+    
+}
+
+.butactive{
+    background-color: white;
+    color: black;
+    /* height: 26px; */
+    border-radius: 5px;
+
+}
+
+.getstarted .inps{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.getstarted input{
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #F2F2F2;
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+.getstarted p{
+    width: 80%;
+    margin: 10px auto;
+    font-size: 13px;
+}
+
+.getstarted p a{
+    text-decoration: none;
+    color: #A76AD4;
+}
+
+.getstarted button{
+    width: 250px;
+    height: 30px;
+    background-color: #7C20BF;
+    color: white;
+    border: 1px solid #7C20BF;
+    border-radius: 5px;
+}
+
+.getstarted .already{
+    font-size: 10px;
+}
+
+/* MEDIA QUERY */
+@media (min-width: 430px){
+    .getstarted{
+        border: 1px solid black;
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 578px){
+    .getstarted{
+        border: 1px solid black;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .getstarted input {
+        font-size: 12px;
+    }
+
+    .getstarted .first{
+        text-align: left;
+        width: 70%;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 991px){
+    .getstarted {
+        width: 50%;
+    }
+
+    .getstarted button {
+        width: 350px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 1200px){
+    .getstarted {
+        width: 40%;
+    }
+}
+
+
+/* THIS CSS IS FOR 'Almost.js' PAGE, THIS IS BECAUSE WHAT IS IN THE 'Getstarted.js' PAGE, LEADS US THERE */
+.almost{
+    background-color: #FBF8FD;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.almost h2{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.almost h1{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.almost img{
+    width: 30%;
+    margin: 30px 0;
+}
+
+.almost .activation{
+    font-size: 13px;
+    width: 80%;
+    margin: auto;
+}
+
+.almost button{
+    width: 250px;
+    height: 30px;
+    background-color: #7C20BF;
+    color: white;
+    border: 1px solid #7C20BF;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.almost div p{
+    font-size: 10px;
+    margin: 5px 0;
+}
+
+.almost div{
+    padding-bottom: 20px;
+}
+
+/* THE MEDIA QUERY */
+@media (min-width: 430px){
+    .almost{
+        border: 1px solid black;
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 578px){
+    .almost{
+        border: 1px solid black;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .almost img{
+        width: 20%;
+    }
+
+}
+
+@media (min-width: 991px){
+    .almost {
+        width: 50%;
+    }
+
+    .almost button {
+        width: 350px;
+        height: 40px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    .almost {
+        width: 40%;
+    }
+}

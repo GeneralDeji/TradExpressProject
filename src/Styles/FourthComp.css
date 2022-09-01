@@ -1,0 +1,102 @@
+.login{
+    background-color: #FBF8FD;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.login h1{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.login .inps{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.login input{
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #F2F2F2;
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+.login .check .checkbox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.login .check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 5px auto;
+    font-size: 12px;
+
+}
+
+.login button{
+    width: 250px;
+    height: 30px;
+    background-color: #7C20BF;
+    color: white;
+    border: 1px solid #7C20BF;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.login .click{
+    font-size: 10px;
+    margin: 20px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* MEDIA QUERY */
+@media (min-width: 430px){
+    .login{
+        border: 1px solid black;
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 578px){
+    .login{
+        border: 1px solid black;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .login input {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 991px){
+    .login {
+        width: 50%;
+    }
+
+    .login button {
+        width: 350px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 1200px){
+    .login {
+        width: 40%;
+    }
+}

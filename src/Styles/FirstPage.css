@@ -1,0 +1,809 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+
+    /* background-color: purple; */
+}
+
+
+/* nav{
+    background-color: red;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar img{
+    width: 30%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+} */
+
+
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to left, #470A73, #7C1FBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-color: purple; */
+
+
+    /* THIS PARTICULAR HEIGHT I GAVE MY NAVBAR MIGHT GIVE ME A BIT OF ISSUE LATER */
+    height: 15px;
+    /* width: 80%;
+    margin: auto; */
+}
+
+.Nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.Nav a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.MobileNavigation .Nav{
+    display: none;
+    height: 80px;
+    padding: 0 15px;
+}
+
+.Nav img{
+    width: 40%;
+}
+
+
+/* API CSS WORK */
+.api{
+    margin: 10px 0;
+}
+
+.api .api-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    /* background-color: red; */
+}
+
+.api .api-container{
+    width: 70%;
+    margin:auto;
+    padding: 10px ;
+    border: 1px solid black;
+    /* background-color: blue; */
+}
+
+
+/* The Buy and Sell Page */
+.BuynSell{
+    /* background-color: purple; */
+    background: linear-gradient(to left, #470A73, #7C1FBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 20px;
+}
+
+.text{
+    /* width: 80%; */
+    /* margin: 20px auto; */
+    text-align: center;
+}
+
+.text h1{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+
+.text p{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 19px;
+    color: white;
+}
+
+.text button{
+    width: 180px;
+    height: 45px;
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+.BuynSell .get-container{
+    margin: 20px auto;
+    display: flex;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.BuynSell .get-container img{
+    width: 15%;
+    margin: 0 10px;
+}
+
+.BuynSell .get-container p{
+    margin-bottom: 0;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.BuynSell .get-container h5{
+    font-size: 17px;
+}
+
+
+
+
+.involved{
+    background-color: #F2F2F2;
+    color: #26093A;
+}
+
+.involved h2{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.involved .cards{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.involved .cards img{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    
+}
+
+.involved h3, .involved p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.involved .btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.involved button{
+    width: 180px;
+    margin: auto;
+    height: 45px;
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+    border-radius: 5px;    
+}
+
+
+
+.steps{
+    background-color: #F2F2F2;
+    color: #26093A;
+    padding-bottom: 50px;
+}
+
+.steps h2{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.steps .cards .img-container img{
+    width: 90%;
+    
+}
+
+.steps .cards .img-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.steps h3, .steps p {
+    margin-left: 30px;
+    
+}
+
+.steps p{
+    width: 70%;
+    /* width: 80%;
+    margin: auto; */
+}
+
+
+
+.ready{
+    margin-top: 80px;
+    color: #26093A;
+    margin-bottom: 80px;
+}
+
+.ready .create p , .ready .create h3 {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.ready .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.ready button{
+    width: 180px;
+    margin: 40px auto;
+    height: 45px;
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.ready .get-container{
+    margin: 20px auto;
+    display: flex;
+    border: 1px solid #26093A;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.ready .get-container img{
+    width: 15%;
+    margin: 0 10px;
+}
+
+.ready .get-container p{
+    margin-bottom: 0;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.ready .get-container h5{
+    font-size: 17px;
+}
+
+
+
+
+
+.review{
+    background-color: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.container{
+    margin: 50px 0;
+    position: relative;
+}
+
+.review h2{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.review .Chatbox{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.review .Chatbox img{
+    width: 90%;
+}
+
+.review .thought{
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    width: 60%;
+    color: white;
+}
+
+.review .thought p{
+    margin-left: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.review .thought img{
+    width: 10%;
+}
+
+.review .person h5, .review .person p{
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer h3{
+    font-size: 15px;
+}
+
+.footer p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.footer .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.copyright{
+    background-color: #F2F2F2;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover Effects */
+button:hover{
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+
+.Nav ul a:focus{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: purple;
+    background-color: white;
+}
+
+.Nav img:hover{
+    position: relative;
+    bottom: 3px;
+}
+
+
+
+
+
+/* This Media Query here is for my Navbar */
+@media (max-width: 990px){
+    .Navigation .Nav{
+        display: none;
+    }
+
+    .MobileNavigation .Nav{
+        display: flex;
+    }
+
+    .MobileNavigation .Nav .Hamburger{
+        position: absolute;
+        color: black;
+        right: 5%;
+    }
+
+    .MobileNavigation .Nav ul{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        background: linear-gradient(to left, #470A73, #7C1FBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        /* background-color: rgb(128, 0, 128); */
+        
+
+    }
+
+    .MobileNavigation .Nav ul li{
+        padding-left: 15%;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+/* MEDIA QUERY STARTS HERE */
+@media (min-width: 450px){
+    .review .thought p {
+        font-size: 17px;
+    }
+
+    .review .person h5, .review .person p {
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 600px){
+    .MobileNavigation .Nav {
+        padding: 0 20px;
+    }
+
+    .Nav img {
+        width: 25%;
+    }
+
+    .text button {
+        width: 250px;
+    }
+
+    .involved h2 {
+        padding-top: 60px;
+    }
+
+    .BuynSell .get{
+        display: flex;
+        justify-content: center;
+    }
+
+    .BuynSell .get-container{
+        margin: 20px 5px;
+    }
+
+    .involved button {
+        width: 250px;
+    }
+
+    .ready button {
+        width: 250px;
+    }
+
+    .ready .get{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ready .get-container{
+        margin: 0 5px;
+    }
+
+    .review .thought p {
+        font-size: 20px;
+    }
+
+    .review .Chatbox img {
+        width: 80%;
+    }
+
+    .review .person h5, .review .person p {
+        margin-left: 20%;
+    }
+
+    .review .thought img {
+        width: 7%;
+    }
+
+    .copyright {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 800px){
+    .Nav img {
+        width: 15%;
+    }
+
+    .api{
+        display: flex;
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .api .api-top{
+        font-size: 13px;
+        color: #2C0C2E;
+        
+    }
+    
+    .api .api-container{
+        width: 65%;
+    }
+
+
+
+    .BuynSell {
+        padding-bottom: 60px;
+    }
+
+    .involved .cards {
+        width: 60%;
+    }
+
+    .steps h2 {
+        padding-top: 80px;
+    }
+
+    .steps .cards .img-container img {
+        width: 50%;
+    }
+
+    .steps h3, .steps p {
+        margin-left: 100px;
+    }
+
+    .review .Chatbox img {
+        width: 50%;
+    }
+
+    .review .thought p {
+        font-size: 15px;
+    }
+
+    .review .thought {
+        top: 10%;
+        left: 28%;
+        width: 40%;
+    }
+
+    .review .person h5, .review .person p {
+        margin-left: 32%;
+    }
+
+}
+
+@media (min-width: 991px){
+    .Nav {
+        padding: 20px 50px;
+    }
+
+    .Nav img {
+        width: 80%;
+    }
+
+    .Nav li {
+        color: white;
+    }
+
+    .text{
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .text h1 {
+        margin: 0;
+        padding-top: 45px;
+    }
+
+    .text p {
+        margin: 20px 0;
+    }
+
+    .BuynSell .get {
+        display: flex;
+        justify-content: left;
+        margin-left: 45px;
+    }
+
+    .involved h2 {
+        width: 80%;
+    }
+
+    .involved .cards {
+        width: 50%;
+    }
+
+    .involved .cards img {
+        margin: 40px auto;
+    }
+
+    .involved h3, .involved p {
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    .steps h2 {
+        width: 80%;
+    }
+
+    .steps .cards .img-container img {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px){
+    .text h1 {
+        width: 70%;
+        font-size: 44px;
+    }
+
+    .text p {
+        width: 50%;
+        font-size: 17px;
+    }
+
+    .text button {
+        width: 350px;
+        height: 55px;
+        font-size: 15px;
+        margin: 20px 0;
+    }
+
+    .BuynSell .get-container p {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .BuynSell .get-container {
+        width: 165px;
+
+    }
+
+    .involved .cards {
+        width: 30%;
+    }
+
+    .involved .crypto{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .involved .cards {
+        margin: 50px 0;
+        border-radius: 5px;
+    }
+
+    .involved h2{
+        font-size: 35px;
+        width: 90%;
+    }
+
+    .involved h3, .involved p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .involved button {
+        width: 350px;
+        height: 55px;
+        font-size: 15px;
+    }
+
+    .steps .cards {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .steps .cards .img-container {
+        margin: 0;
+        width: 90%;
+    }
+
+    .steps .cards .img-container img {
+        width: 90%;
+    }
+
+    .steps h3, .steps p {
+        margin: 0 20px;
+        width: 100%;
+
+    }
+
+    .steps h3{
+        font-size: 20px;
+    }
+    
+    .steps .cards:nth-child(1), .steps .cards:nth-child(3){
+        flex-direction: row-reverse;
+    }
+
+    .review h2 {
+        font-size: 30px;
+    }
+    
+
+    .review .review-container{
+        display: flex;
+        justify-content: space-between
+    }
+
+
+    .review .Chatbox img {
+        width: 90%;
+    }
+
+    .review .thought p {
+        font-size: 12px;
+    }
+
+    .review .thought p {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    .review .thought {
+        top: 8%;
+        left: 15%;
+        width: 60%;
+    }
+
+    .review .thought img {
+        width: 10%;
+    }
+
+    .review .person h5, .review .person p {
+        margin-left: 15%;
+        font-size: 15px;
+    }
+
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        margin: 0 20px;
+    }
+
+    .copyright {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px){
+    .text h1 {
+        width: 50%;
+    }
+
+    .text p {
+        width: 43%;
+    }
+    
+    .involved h2 {
+        font-size: 25px;
+    }
+
+    .involved .cards {
+        width: 25%;
+    }
+
+}
+
